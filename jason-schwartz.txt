@@ -97,7 +97,8 @@ Stretch Questions
     block: p, ol, form
     inline: span, img
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
-    The box model refers to all aspects of spacing of objects in a page - content, margin, border, padding.  More powerful and customizable with Flexbox!
+    The box model refers to all aspects of spacing of objects in a page - content, margin, border, padding.  More powerful and customizable with Flexbox! Specifically, the 'wrap'
+    attribute will help the dimensions of the elements be respected. 
 
 
 
