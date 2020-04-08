@@ -1,0 +1,105 @@
+Completed codepen: https://codepen.io/jasonschwartz/pen/GRpKRVa?editors=1100
+
+Questions:
+
+
+    1. What is Semantic HTML? 
+    Markup language wherein the languaging used conveys meaning.
+    2. What is HTML used for?
+    HTML is used to create the blueprint for the structure of a website. It is the barebones content before one adds design (css) and functionality (ie javascript)
+    3. What is an attribute and where do we put it? 
+    An attribute is something that describes an element. We put attributes inside of tags after the element. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used for the main heading. It is recommended to only use once per page. 
+    5. Name two tags that have required attributes
+    Anchor tag and Input tag. 
+    6. What do we put in the head of our HTML document? 
+    The head of our HTML includes metadata that will not necessarily be dispayed to the user. Ie information for SEO and other pages that are being utilized or linked to. 
+    7. What is an id? 
+    An unique identifier that can be attached to an element. Only use once!
+    8. What elements can I add an id to? 
+    Any
+    9. How many times can I use the same id on a page? 
+    Once
+    10. What is a class? 
+    An identified that you can give to multiple elements that you want to share elements of style in common. 
+    11. What elements can I add a class to? 
+    Any
+    12. How many times can I use the same class on a page? 
+    As many times as you need to. 
+    13. How do I get my link to open in a new tab?
+    Command + shift + click
+    14. What is the alt attribute in the image tag used for?
+    If for some reason the image does not display, Alt gives the alternative text that is displayed.
+    15. How do I reference an id?
+    #
+    16. What is the difference between a section and a div
+    Section has specific semantic meaning and div is non-semantic (has no specific meaning)
+    17. What is CSS used for? 
+    CSS is used for the design of a web page. 
+    18. How to we select an element? Example - every h2 on the page
+    h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can be used for multiple elements that you want to have share certain styles. An id is unique and only used for one particular element. A class might be used for several images that you want to have the same border. An id might be used for one particular section that you want to have as a reference point (less likely to be used for style). 
+    20. How do we select classes in CSS?
+    .
+    21. How do we select a p element with a single class of “human””?
+    p.human
+    22. What is a parent child selector? When would this be useful?
+    a parent child selector is when you select a child within its parent. This could be useful when you need to target a specific child but not the parent.  
+    23. How do you select all links within a div with the class of sidebar?
+    div.sidebar a
+    24. What is a pseudo selector?
+    a pseudo selector is a selector that selects elements in a specific state (ie hovered over)
+    25. What do we use the change the spacing between lines?
+    line-height
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase; lowercase; capitalize; 
+    28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px dotted black;
+    }
+    29. How do I select everything on the page? 
+    * {}
+    30. How do I write a comment in CSS?
+    /* this is a comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm _____. You have to be careful because a lot of the 'child safety locks' that are present in the GUI are not present in the command line. When you delete something, it's gone FoReVeR. 
+    34. Why should I use version control? 
+    Version control is great for collaboration and working solo to be able to save a project in time and be able to access that version later on. 
+    35. How often should I commit to github?
+    Commit regularly. This will save your work. 
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin "branchname"
+    37. Walk me through Lambda's git flow. 
+    *student forks repo so it is their own
+    *student adds TL as collaborator
+    *student clones repo using terminal
+    *student makes new branch (prob with first and last name) and makes any files + edits to be added, committed, and pushed
+    *student creates pull request after making sure they are on the correct branch and adds TL as reviewer
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    An inline element (like span) is formatted in such a way that the element does not force a new line to be created. A block element (p) typically creates a line break. These attributes can be changed in CSS, but some properities can not be altered. 
+    2. What happens when an element is positioned absolutely? 
+    It is removed from normal document flow and has a fixed position on the screen
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    ?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block: p, ol, form
+    inline: span, img
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model refers to all aspects of spacing of objects in a page - content, margin, border, padding.  More powerful and customizable with Flexbox! Specifically, the 'wrap'
+    attribute will help the dimensions of the elements be respected. 
+
+
+
+   --> 
